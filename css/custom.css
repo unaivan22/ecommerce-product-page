@@ -1,3 +1,7 @@
+.d-contents{
+    display: contents;
+}
+
 .submain-link{
     color: #D0D0D0;
     text-transform: uppercase;
@@ -25,7 +29,7 @@
 
 .title-price{
     font-size: 48pt;
-    font-size: 900;
+    font-weight: 700;
     color: #FA6767;
 }
 
@@ -47,4 +51,22 @@
 
 .pointer{
     cursor: pointer;
+}
+
+.btn-decrement, .btn-increment{
+    border-radius: 50%;
+}
+
+.current-total{
+    width: 30%;
+}
+
+.button-cta-inline{
+    display: contents;
+}
+
+.review-user-photos{
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
 }
