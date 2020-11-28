@@ -1,0 +1,50 @@
+.submain-link{
+    color: #D0D0D0;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.img-main{
+    border-radius: 12px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-subs{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px !important;
+}
+
+.title-main{
+    font-size: 42pt;
+    font-size: bold;
+    color: #000000;
+}
+
+.title-price{
+    font-size: 48pt;
+    font-size: 900;
+    color: #FA6767;
+}
+
+
+.description-main {display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    color: #000000;
+    line-height: 2rem;
+}
+
+.full-descrition{
+    color: #339AFA;
+    font-weight: bold;
+}
+
+.pointer{
+    cursor: pointer;
+}
