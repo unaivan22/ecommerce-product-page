@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page - AXYz-Shop</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,80,900" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,80,900" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
     <link rel="stylesheet" href="css/style.bundle.css">
-    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/custom.css">
+	
+	<link rel="shortcut icon" href="media/logo/favico.png" />
 </head>
 <body>
     <body id="kt_body" class="quick-panel-right demo-panel-right offcanvas-right header-fixed header-mobile-fixed subheader-enabled aside-enabled aside-static">
@@ -139,28 +142,22 @@
 									<!--end::Dropdown-->
 								</div>
 								<!--end::Tablet & Mobile Search-->
+								<!--begin::cart-->
+								<div class="topbar-item mr-4">
+									<!-- <div class="btn btn-icon btn-sm btn-primary font-weight-bolder p-0">3</div> -->
+									<a href="#" class="btn btn-outline-primary mr-3">
+										<i class="icon-xl la la-shopping-bag"></i>
+										2 Items
+									</a>
+								</div>
+								<!--end::cart-->
 								<!--begin::User-->
 								<div class="topbar-item mr-4">
-									<div class="btn btn-icon btn-sm btn-clean btn-text-dark-75" id="kt_quick_user_toggle">
-										<span class="svg-icon svg-icon-lg">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/General/User.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<polygon points="0 0 24 0 24 24 0 24"></polygon>
-													<path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
-													<path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero"></path>
-												</g>
-											</svg>
-											<!--end::Svg Icon-->
-										</span>
+									<div class="a">
+										<img class="img-thumb-profile" src="https://avatars1.githubusercontent.com/u/25717454?s=460&u=b50015a2863532ad504acb0988346ecf44b194e3&v=4" alt="">
 									</div>
 								</div>
 								<!--end::User-->
-								<!--begin::Notifications-->
-								<div class="topbar-item">
-									<div class="btn btn-icon btn-sm btn-primary font-weight-bolder p-0" id="kt_quick_notifications_toggle">3</div>
-								</div>
-								<!--end::Notifications-->
 							</div>
 							<!--end::Topbar-->
 						</div>
@@ -177,15 +174,18 @@
 									<!--begin::Page Heading-->
 									<div class="d-flex align-items-baseline flex-wrap mr-5">
 										<!--begin::Page Title-->
-										<h2 class="d-flex align-items-center text-dark font-weight-bold my-1 mr-3">Advance Navs</h2>
+										<!-- <h2 class="d-flex align-items-center text-dark font-weight-bold my-1 mr-3">Home</h2> -->
 										<!--end::Page Title-->
 										<!--begin::Breadcrumb-->
-										<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold my-2 p-0">
+										<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold my-2 p-0 pl-8">
 											<li class="breadcrumb-item">
-												<a href="" class="text-muted">Custom</a>
+												<a href="javascript:;" class="text-nav-red">Home</a>
 											</li>
 											<li class="breadcrumb-item">
-												<a href="" class="text-muted">Advance Navs</a>
+												<a href="javascript:;" class="text-nav-red">Laptop</a>
+											</li>
+											<li class="breadcrumb-item">
+												<a href="javascript:;" class="text-muted">Apple MacBook Pro 15" Retina 2017 - Silver</a>
 											</li>
 										</ul>
 										<!--end::Breadcrumb-->
@@ -258,19 +258,69 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+												</div>
+												<div class="row">
+													<div class="col-12">
+														<div class="divider"></div>
+													</div>
+												</div>
                                                 <div class="row mt-32">
                                                     <div class="col-2">
                                                         <h4>Customers Review</h4>
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <p class="d-contents"> * * * * *</p>
-                                                                <span class="float-right">27</span>
-                                                            </div>
+                                                            <div class="col-12 mb-2">
+                                                                <p class="d-contents"> 
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																</p>
+                                                                <span class="float-right text-dark font-weight-bolder">24</span>
+															</div>
+															<div class="col-12 mb-2">
+                                                                <p class="d-contents"> 
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																</p>
+                                                                <span class="float-right text-dark font-weight-bolder">2</span>
+															</div>
+															<div class="col-12 mb-2">
+                                                                <p class="d-contents"> 
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																</p>
+                                                                <span class="float-right text-dark font-weight-bolder">1</span>
+															</div>
+															<div class="col-12 mb-2">
+                                                                <p class="d-contents"> 
+																	<span class="fa fa-star star-checked"></span>
+																	<span class="fa fa-star star-checked"></span>
+																</p>
+                                                                <span class="float-right text-dark font-weight-bolder">0</span>
+															</div>
+															<div class="col-12 mb-2">
+                                                                <p class="d-contents"> 
+																	<span class="fa fa-star star-checked"></span>
+																</p>
+                                                                <span class="float-right text-dark font-weight-bolder">1</span>
+															</div>
                                                         </div>
                                                     </div>
                                                     <div class="col-10 pl-24 mt-6">
-                                                        <div class="row mt-4">
+														<div class="form-group row mb-6">
+															<label for="example-url-input" class="col-1 col-form-label text-dark font-weight-bold">Sorting</label>
+															<div class="col-2">
+																<select class="form-control">
+																	<option>Top review</option>
+																	<option>Most Recent</option>
+																</select>
+															</div>
+														</div>
+                                                        <div class="row mt-10">
                                                             <div class="col-20 mb-5">
                                                                 <img class="img-subs" src="https://images.unsplash.com/photo-1501163268664-3fdf329d019f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="">
                                                             </div>
@@ -283,20 +333,57 @@
                                                             <div class="col-20 mb-5">
                                                                 <img class="img-subs" src="https://images.unsplash.com/photo-1501163268664-3fdf329d019f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="">
                                                             </div>
-                                                            <div class="col-20 mb-5">
-                                                                <img class="img-subs" src="https://images.unsplash.com/photo-1600262300671-295cb21f4d06?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="">
-                                                            </div>
+                                                            <div class="col-20 mb-5 text-center" style="border-radius: 12px;background-color: #C4C4C4;">
+																<!-- <img class="img-subs" src="https://images.unsplash.com/photo-1600262300671-295cb21f4d06?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt=""> -->
+																<a href="javasript:;" class="text-dark font-weight-bolder align-middle h5" style="transform: translateY(7.5vh);display: block;">See all photos</a>
+															</div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-12">
+                                                            <div class="col-12 user-review mb-4">
                                                                 <div class="card">
-                                                                    <div class="card-header border-0">
+                                                                    <div class="card-header border-0 d-flex align-items-start pb-3">
                                                                         <img class="review-user-photos" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80" alt="">
-                                                                        <span class="h4 text-dark font-weight-bold ml-3">Unaivan</span> <small class="ml-4">2 Months ago</small> <br>
-                                                                        <span >* * * * *</span>
+																		<div>
+																			<p class="h4 text-dark font-weight-bold ml-3 pt-2">Jade Sarah <span class="ml-4 font-size-sm text-dark-50">2 Months ago</span></p>
+																			<p class="ml-3 p-0">
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																			</p>
+																		</div>
                                                                     </div>
-                                                                    <div class="card-body">
-                                                                        
+                                                                    <div class="card-body pt-0 ml-18">
+																		<p class="">Smooth goods, safe boxes because of wooden packing, hopefully it will hold and smooth and have a long life</p>
+																		<div class="row">
+																			<div class="col-2 mb-5">
+																				<img class="img-subs-review" src="https://images.unsplash.com/photo-1501163268664-3fdf329d019f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="">
+																			</div>
+																			<div class="col-2 mb-5">
+																				<img class="img-subs" src="https://images.unsplash.com/photo-1600262300671-295cb21f4d06?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" alt="">
+																			</div>
+																		</div>
+                                                                    </div>
+                                                                </div>
+															</div>
+															<div class="col-12 user-review mb-4">
+                                                                <div class="card">
+                                                                    <div class="card-header border-0 d-flex align-items-start pb-3">
+                                                                        <img class="review-user-photos" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=398&q=80" alt="">
+																		<div>
+																			<p class="h4 text-dark font-weight-bold ml-3 pt-2">Lissa Kim<span class="ml-4 font-size-sm text-dark-50">2 Months ago</span></p>
+																			<p class="ml-3 p-0">
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																				<span class="fa fa-star star-checked"></span>
+																			</p>
+																		</div>
+                                                                    </div>
+                                                                    <div class="card-body pt-0 ml-18">
+                                                                        <p class="">Good Price, safe packing</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1776,38 +1863,6 @@
 			</span>
 		</div>
 		<!--end::Scrolltop-->
-		<!--begin::Sticky Toolbar-->
-		<ul class="sticky-toolbar nav flex-column pl-2 pr-2 pt-3 pb-3 mt-4">
-			<!--begin::Item-->
-			<li class="nav-item mb-2" id="kt_demo_panel_toggle" data-toggle="tooltip" title="" data-placement="right" data-original-title="Check out more demos">
-				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-success btn-hover-success" href="#">
-					<i class="flaticon2-drop"></i>
-				</a>
-			</li>
-			<!--end::Item-->
-			<!--begin::Item-->
-			<li class="nav-item mb-2" data-toggle="tooltip" title="" data-placement="left" data-original-title="Layout Builder">
-				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="https://preview.keenthemes.com/metronic/demo5/builder.html" target="_blank">
-					<i class="flaticon2-gear"></i>
-				</a>
-			</li>
-			<!--end::Item-->
-			<!--begin::Item-->
-			<li class="nav-item mb-2" data-toggle="tooltip" title="" data-placement="left" data-original-title="Documentation">
-				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-warning btn-hover-warning" href="https://keenthemes.com/metronic/?page=docs" target="_blank">
-					<i class="flaticon2-telegram-logo"></i>
-				</a>
-			</li>
-			<!--end::Item-->
-			<!--begin::Item-->
-			<li class="nav-item" id="kt_sticky_toolbar_chat_toggler" data-toggle="tooltip" title="" data-placement="left" data-original-title="Chat Example">
-				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#" data-toggle="modal" data-target="#kt_chat_modal">
-					<i class="flaticon2-chat-1"></i>
-				</a>
-			</li>
-			<!--end::Item-->
-		</ul>
-		<!--end::Sticky Toolbar-->
 		<script>var HOST_URL = "https://preview.keenthemes.com/metronic/theme/html/tools/preview";</script>
 		<!--begin::Global Config(global config for global JS scripts)-->
 		<script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "primary": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>

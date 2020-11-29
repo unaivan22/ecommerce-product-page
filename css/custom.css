@@ -21,6 +21,12 @@
     border-radius: 12px !important;
 }
 
+.img-subs-review{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px !important;
+}
+
 .title-main{
     font-size: 42pt;
     font-size: bold;
@@ -67,6 +73,21 @@
 
 .review-user-photos{
     height: 4rem;
+    width: 4rem;
     object-fit: cover;
+    border-radius: 50%;
+}
+
+.star-checked {
+    color: #FBA41D;
+}
+
+.text-nav-red {
+    color: #FA6767;
+}
+
+.img-thumb-profile {
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
 }
